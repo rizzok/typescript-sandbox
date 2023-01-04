@@ -1,15 +1,15 @@
-interface User {
-  name: string;
-  age?: number;
+type ID = number;
+
+interface UserInterface {
+  id: ID;
+  pseudo: string;
 }
 
-const user: User = {
-  name: "Kevin",
-  age: 32
+const user1: UserInterface = {
+  id: 1,
+  pseudo: "Johnny92"
 }
 
-const user2: User = {
-  name: "Jack"
+const doSomething = (): void => {
+  console.log("do something");
 }
-
-console.log(user.name)

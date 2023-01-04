@@ -1,8 +1,7 @@
-var user = {
-    name: "Kevin",
-    age: 32
+var user1 = {
+    id: 1,
+    pseudo: "Johnny92"
 };
-var user2 = {
-    name: "Jack"
+var doSomething = function () {
+    console.log("do something");
 };
-console.log(user.name);
